@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Catalogue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Library Catalogue</h1>
+    </header>
+    <div class="catalogue-container">
+        <input type="text" id="search-bar" placeholder="Search for books...">
+        <div class="book-list">
+            <div class="book-item">
+                <h3>Book Title 1</h3>
+                <p>Author: Author 1</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="book-item">
+                <h3>Book Title 2</h3>
+                <p>Author: Author 2</p>
+                <p>Description: Phasellus viverra nulla ut metus varius laoreet.</p>
+            </div>
+            <!-- More book items can be added here -->
+        </div>
+    </div>
+    <style>
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.catalogue-container {
+    padding: 2 0px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.book-item h3 {
+    margin: 0 0 10px;
+}
+
+.book-item p {
+    margin: 5px 0;
+}
+
+    </style>
+</body>
+</html>
